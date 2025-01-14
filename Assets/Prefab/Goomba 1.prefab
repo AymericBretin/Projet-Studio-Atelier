@@ -393,6 +393,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Enemie: {fileID: 4916015663200903861}
+  anim: {fileID: 4838540107344931947}
+  box: {fileID: 9210719645692006280}
+  dead: 0
 --- !u!1001 &5082138377787814410
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -507,6 +510,7 @@ MonoBehaviour:
   graph: {fileID: 1686092712017175663}
   anim: {fileID: 4838540107344931947}
   Move: 0
+  Enemie_weak_spot: {fileID: 5839413943751577911}
 --- !u!4 &8140743279166480607 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3926816770256655061, guid: 41574112480f52440a880b1e03c4e681, type: 3}

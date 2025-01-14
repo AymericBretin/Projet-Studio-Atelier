@@ -15,6 +15,8 @@ public class EnnemiWaypoint : MonoBehaviour
 
     public bool Move = false;
 
+    public enemie_weak_spot Enemie_weak_spot;
+
     void Start()
     {
         target = waypoint[0];
@@ -24,7 +26,7 @@ public class EnnemiWaypoint : MonoBehaviour
 
     void Update()
     {
-        if (Move == true) {
+        if (Move == true && Enemie_weak_spot.dead == false) {
             Vector3 dir = target.position - transform.position;
             transform.Translate(dir.normalized * speed * Time.deltaTime, Space.World);
 
