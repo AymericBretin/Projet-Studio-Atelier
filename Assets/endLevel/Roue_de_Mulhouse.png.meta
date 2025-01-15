@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Roue_de_Mulhouse_0: -381172137066858238
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
