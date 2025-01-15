@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: ede71c31e191e4b7eb123d57952b4ca3
+guid: 71208c856ee595448862c7eb756785b8
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 4882323079752710863
-    second: ALLO_0
+      213: -3402081981884208200
+    second: Tour clean Sky_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -37,7 +37,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -96,17 +96,30 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: ALLO_0
+      name: Tour clean Sky_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 621
-        height: 600
+        x: 31
+        y: 50
+        width: 949
+        height: 803
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: fcaf95f29fe71c340800000000000000
-      internalID: 4882323079752710863
+      spriteID: 8bbe805667069c0d0800000000000000
+      internalID: -3402081981884208200
       vertices: []
       indices: 
       edges: []
@@ -135,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      ALLO_0: 4882323079752710863
+      Tour clean Sky_0: -3402081981884208200
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
