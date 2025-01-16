@@ -106,7 +106,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6937075881260888817}
   - component: {fileID: 4002248729456650694}
-  - component: {fileID: 8468197375759702878}
+  - component: {fileID: 8966812196090736831}
   m_Layer: 0
   m_Name: Goomba
   m_TagString: Box
@@ -185,7 +185,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &8468197375759702878
+--- !u!114 &8966812196090736831
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -194,17 +194,15 @@ MonoBehaviour:
   m_GameObject: {fileID: 7605340642160171333}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e76b6972bb9494db8a44f0a20de7618f, type: 3}
+  m_Script: {fileID: 11500000, guid: 86db5b81f03074c7c9f672c3e346d477, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 2
+  speed: 5
   waypoint:
-  - {fileID: 3222913870724162008}
   - {fileID: 7565061975705578671}
-  graph: {fileID: 4002248729456650694}
+  - {fileID: 3222913870724162008}
   anim: {fileID: 0}
   Move: 0
-  Enemie_weak_spot: {fileID: 0}
 --- !u!1001 &830194091823980758
 PrefabInstance:
   m_ObjectHideFlags: 0
