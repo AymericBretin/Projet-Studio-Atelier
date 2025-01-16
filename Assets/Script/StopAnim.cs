@@ -1,8 +1,9 @@
 using UnityEngine;
 
-public class NewMenu : MonoBehaviour
+public class StopAnim : MonoBehaviour
 {
     public Animator anim;
+    public string Name;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -15,11 +16,9 @@ public class NewMenu : MonoBehaviour
         
     }
 
-    private void OnTriggerEnter2D(Collider2D other)
+    public void Stop()
     {
-        if (other.gameObject.tag == "Player") {
-            anim.SetBool("Open", true);
-            Debug.Log("Ici on Start");
-        }
+        anim.SetBool(Name, false);
+        Debug.Log("Stop Animation");
     }
 }

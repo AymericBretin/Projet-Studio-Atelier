@@ -1,8 +1,9 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
-public class NewMenu : MonoBehaviour
+public class ChangeScene : MonoBehaviour
 {
-    public Animator anim;
+    public string scenename;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -15,11 +16,9 @@ public class NewMenu : MonoBehaviour
         
     }
 
-    private void OnTriggerEnter2D(Collider2D other)
+    public void Change()
     {
-        if (other.gameObject.tag == "Player") {
-            anim.SetBool("Open", true);
-            Debug.Log("Ici on Start");
-        }
+        SceneManager.LoadScene(scenename);
+        Debug.Log("Change Scene");
     }
 }

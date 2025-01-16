@@ -1,8 +1,9 @@
 using UnityEngine;
 
-public class NewMenu : MonoBehaviour
+public class End_Level : MonoBehaviour
 {
     public Animator anim;
+    public PlayerMovement playerMovement;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -18,8 +19,10 @@ public class NewMenu : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D other)
     {
         if (other.gameObject.tag == "Player") {
-            anim.SetBool("Open", true);
-            Debug.Log("Ici on Start");
+            playerMovement.canMove = false;
+            Rigidbody2D rb = other.GetComponent<Rigidbody2D>();
+            rb.linearVelocity = Vector2.zero;
+            anim.SetBool("Victory", true);
         }
     }
 }

@@ -11,26 +11,35 @@ public class PlayerMovement : MonoBehaviour
     private bool isFacingRight = true;
     public float inputX;
     public Animator anim;
+    public bool canMove = true;
+
+    public Transform groundCheckPoint;
+    public float groundCheckRadius = 0.1f;
+    public LayerMask groundLayer;
 
     //public StartGame startGame;
     void Update()
     {
-        inputX = Input.GetAxis("Horizontal");
+        if (canMove == true)
+        {
+            inputX = Input.GetAxis("Horizontal");
 
-        if (Input.GetButtonDown("Jump") && onFloor == true) {
-            anim.SetBool("Jump", true);
-            rb.linearVelocity = new Vector2(rb.linearVelocity.x, jump);
-            onFloor = false;
-        }
+            if (Input.GetButtonDown("Jump") && onFloor == true) {
+                anim.SetBool("Jump", true);
+                rb.linearVelocity = new Vector2(rb.linearVelocity.x, jump);
+                onFloor = false;
+            }
 
-        if (inputX >= 0.1f || inputX <= -0.1f) {
-            anim.SetBool("Move", true);
-        } else {
-            anim.SetBool("Move", false);
+            if (inputX >= 0.1f || inputX <= -0.1f) {
+                anim.SetBool("Move", true);
+            } else {
+                anim.SetBool("Move", false);
+            }
+            
+            rb.linearVelocity = new Vector2(inputX * speed, rb.linearVelocity.y);
+            Flip();
         }
-        
-        rb.linearVelocity = new Vector2(inputX * speed, rb.linearVelocity.y);
-        Flip();
+        onFloor = Physics2D.OverlapCircle(groundCheckPoint.position, groundCheckRadius, groundLayer);
     }
 
     private void OnTriggerEnter2D(Collider2D other)
@@ -58,6 +67,12 @@ public class PlayerMovement : MonoBehaviour
             localScale.x *= -1f;
             transform.localScale = localScale;
         }
+    }
+
+    void OnDrawGizmos()
+    {
+        Gizmos.color = Color.red;
+        Gizmos.DrawWireSphere(groundCheckPoint.position, groundCheckRadius);
     }
 
 }
