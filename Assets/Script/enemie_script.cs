@@ -21,7 +21,8 @@ public class EnnemiWaypoint : MonoBehaviour
     {
         target = waypoint[0];
         Move = true;
-        anim.SetBool("Move", true);
+        if (anim != null)
+            anim.SetBool("Move", true);
     }
 
     void Update()
@@ -39,9 +40,11 @@ public class EnnemiWaypoint : MonoBehaviour
 
     public IEnumerator MyCoroutine() {
         Move = false;
-        anim.SetBool("Move", false);
+        if (anim != null)
+            anim.SetBool("Move", false);
         yield return new WaitForSeconds(2);
-        anim.SetBool("Move", true);
+        if (anim != null)
+            anim.SetBool("Move", true);
         dest = (dest + 1) % waypoint.Length;
         target = waypoint[dest];
         graph.flipX = !graph.flipX;
