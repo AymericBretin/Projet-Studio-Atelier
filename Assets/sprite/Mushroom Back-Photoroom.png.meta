@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Mushroom Back-Photoroom_0: 8099022107604217912
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
