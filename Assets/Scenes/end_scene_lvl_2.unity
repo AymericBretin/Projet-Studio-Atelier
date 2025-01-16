@@ -1713,13 +1713,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Je suis un lieu o\xF9 les rencontres se font sous l'ombre des b\xE2timents
-    anciens. Mon nom \xE9voque des rassemblements et des \xE9changes, mais aussi
-    un moment cl\xE9 de l\u2019histoire. O\xF9 dois-tu aller pour continuer ton chemin
-    ?"
+  m_text: 
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 7b379532f43f1cc47bf86ff3e6e536f1, type: 2}
+  m_sharedMaterial: {fileID: -7684520118379859218, guid: 7b379532f43f1cc47bf86ff3e6e536f1, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1905,9 +1902,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tab:
-  - "Je suis un lieu o\xF9 les rencontres se font sous l'ombre des b\xE2timents anciens.
-    Mon nom \xE9voque des rassemblements et des \xE9changes, mais aussi un moment
-    cl\xE9 de l\u2019histoire. O\xF9 dois-tu aller pour continuer ton chemin ?"
+  - "Je suis un lieu ou les rencontres se font sous l'ombre des batiments anciens.
+    Mon nom evoque des rassemblements et des echanges, mais aussi un moment cle de
+    l\u2019histoire. Ou dois-tu aller pour continuer ton chemin ?"
   - I'm a place where people meet in the shadow of ancient buildings. My name evokes
     gatherings and exchanges, but also a key moment in history. Where do you need
     to go to continue your journey?
