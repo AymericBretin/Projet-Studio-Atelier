@@ -9,6 +9,7 @@ public class enemie_weak_spot : MonoBehaviour
     public BoxCollider2D box;
     public bool dead = false;
     public float throwForce = 10f;
+    public bool jump = true;
 
     void Update()
     {
@@ -17,8 +18,9 @@ public class enemie_weak_spot : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.gameObject.tag == "Player")
+        if (other.gameObject.tag == "Player" && jump == true)
         {
+            jump = false;
             box.enabled = false;
             dead = true;
             Rigidbody2D rb = other.GetComponent<Rigidbody2D>();

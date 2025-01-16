@@ -398,6 +398,7 @@ MonoBehaviour:
   box: {fileID: 9210719645692006280}
   dead: 0
   throwForce: 20
+  jump: 1
 --- !u!1001 &5082138377787814410
 PrefabInstance:
   m_ObjectHideFlags: 0
