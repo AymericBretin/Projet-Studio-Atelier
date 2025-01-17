@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 319482918772950253}
   - component: {fileID: 1978202190708581526}
   - component: {fileID: 3118357163758251000}
+  - component: {fileID: -4560482786424777597}
   m_Layer: 0
   m_Name: Goomba Boss
   m_TagString: Untagged
@@ -162,3 +163,20 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &-4560482786424777597
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1705339226088154779}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9884e775ea20c44dfb7489246023bb8a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Check_point: {fileID: 0}
+  Player: {fileID: 0}
+  deathScreen: {fileID: 0}
+  deathSound: {fileID: 0}
+  playerMovement: {fileID: 0}
