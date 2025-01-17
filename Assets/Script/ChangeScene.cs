@@ -18,7 +18,9 @@ public class ChangeScene : MonoBehaviour
 
     public void Change()
     {
-        SceneManager.LoadScene(scenename);
-        Debug.Log("Change Scene");
+        if (scenename.Length > 0) {
+            SceneManager.LoadScene(scenename);
+            Debug.Log("Change Scene");
+        }
     }
 }

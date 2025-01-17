@@ -16,6 +16,7 @@ public class MenuButton : MonoBehaviour
     public string frenchSound = "Musique";
     public string englishSound = "Music";
     public TMP_Text SoundString;
+    public StockValue stockValue;
 
     void Start()
     {
@@ -29,6 +30,7 @@ public class MenuButton : MonoBehaviour
         btnExit.sprite = sprite[2];
         settingString.text = frenchWords;
         SoundString.text = frenchSound;
+        stockValue.Lang = true;
     }
 
     public void English()
@@ -38,6 +40,7 @@ public class MenuButton : MonoBehaviour
         btnExit.sprite = sprite[5];
         settingString.text = englishWords;
         SoundString.text = englishSound;
+        stockValue.Lang = false;
     }
     // Update is called once per frame
     void Update()

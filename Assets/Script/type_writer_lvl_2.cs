@@ -16,6 +16,9 @@ public class type_writer_lvl_2 : MonoBehaviour
 
     void Awake()
     {
+        GameObject saveObject = GameObject.Find("Save");
+        StockValue saveScript = saveObject.GetComponent<StockValue>();
+        lang = saveScript.Lang;
         audio = GetComponent<AudioSource>();
         uiText = GetComponent<TMP_Text>();
         if (lang == true)

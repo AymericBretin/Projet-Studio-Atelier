@@ -9,6 +9,9 @@ public class Show_button_for_choice_scene : MonoBehaviour
     public GameObject bt2;
     public GameObject bt3;
 
+    public GameObject bt4;
+    StockValue saveScript;
+
     void Start()
     {
         
@@ -27,5 +30,15 @@ public class Show_button_for_choice_scene : MonoBehaviour
     public void show_button()
     {
         StartCoroutine(wait());
+    }
+
+    public void soluce()
+    {
+        GameObject saveObject = GameObject.Find("Save");
+        saveScript = saveObject.GetComponent<StockValue>();
+        if (saveScript.TotalCoin >= 10) {
+            saveScript.TotalCoin -= 10;
+            bt4.SetActive(false);
+        }
     }
 }

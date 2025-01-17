@@ -25,8 +25,15 @@ public class Kill_area : MonoBehaviour
                 deathSound.Play();
                 playerMovement.canMove = false;
             }
-            StartCoroutine(Timer());
+            //StartCoroutine(Timer());
+            ReloadCurrentScene();
         }
+    }
+
+    public void ReloadCurrentScene()
+    {
+        string currentSceneName = SceneManager.GetActiveScene().name;
+        SceneManager.LoadScene(currentSceneName);
     }
 
     IEnumerator Timer()

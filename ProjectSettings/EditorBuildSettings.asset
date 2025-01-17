@@ -17,6 +17,30 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/lvl_1.unity
     guid: 3d1a01ae1b13141f48bff25bf122f90a
+  - enabled: 1
+    path: Assets/Scenes/end_scene_lvl_1.unity
+    guid: 88619d8ef7295457587a691c3eabcec2
+  - enabled: 1
+    path: Assets/Scenes/Pont_Fonderie.unity
+    guid: d43f5e8ceb54b4e4cb3f7fcf79f8676f
+  - enabled: 1
+    path: Assets/Scenes/general_de_gaule.unity
+    guid: 41a63bb94a1667149a2ffdfdaf71b3c0
+  - enabled: 1
+    path: Assets/Scenes/end_scene_lvl_2.unity
+    guid: 15e2b2b347b004b48b0a2709e32769f4
+  - enabled: 1
+    path: Assets/Scenes/end_scene_lvl_3.unity
+    guid: ce86c7d7da9124068833c8cb92050795
+  - enabled: 1
+    path: Assets/Scenes/parc_Salvator.unity
+    guid: 7d98939d78a712c4eb09ecdc2424d12e
+  - enabled: 1
+    path: Assets/Scenes/place_reunion.unity
+    guid: c7f9216229cfa88498ed63875f92990b
+  - enabled: 1
+    path: Assets/Scenes/Eglise saint-Etienne.unity
+    guid: 07cf4654fabc64ff39d1bf6dd8f39c86
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0
