@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 8a3443381e52143df93e159711360d8d
+guid: 540553c4719d4124f82383d4449231a8
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -160311129344614499
-    second: 800px-3_Boulevard_de_l'_Europe_Mulhouse_71753_0
+      213: 1404028623067837608
+    second: Logo_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: 800px-3_Boulevard_de_l'_Europe_Mulhouse_71753_0
+      name: Logo_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 800
-        height: 600
+        width: 450
+        height: 450
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d9f5fd190e576cdf0800000000000000
-      internalID: -160311129344614499
+      spriteID: 8a47074089c1c7310800000000000000
+      internalID: 1404028623067837608
       vertices: []
       indices: 
       edges: []
@@ -147,8 +147,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      800px-3_Boulevard_de_l'_Europe_Mulhouse_71753_0: -160311129344614499
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
