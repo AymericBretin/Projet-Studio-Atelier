@@ -41977,6 +41977,7 @@ MonoBehaviour:
   anim: {fileID: 9051473630603172111}
   playerMovement: {fileID: 8848315728821503231}
   swap: {fileID: 3705301803208825859}
+  coin: {fileID: 3419045057791537776}
 --- !u!1 &6657140359420275637
 GameObject:
   m_ObjectHideFlags: 0

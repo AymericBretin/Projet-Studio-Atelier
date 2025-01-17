@@ -37746,7 +37746,7 @@ MonoBehaviour:
   anim: {fileID: 9051473629796376776}
   playerMovement: {fileID: 8848315728015047992}
   swap: {fileID: 7019509986033342068}
-  coin: {fileID: 0}
+  coin: {fileID: 3419045056446122935}
 --- !u!50 &67288214635987286
 Rigidbody2D:
   serializedVersion: 5

@@ -600,7 +600,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 826365805670623979, guid: a84130cbb09ec9646adf8af3899b9bcb, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 5.93
+      value: 3.7
       objectReference: {fileID: 0}
     - target: {fileID: 826365805670623979, guid: a84130cbb09ec9646adf8af3899b9bcb, type: 3}
       propertyPath: m_LocalPosition.z
@@ -24646,6 +24646,7 @@ MonoBehaviour:
   anim: {fileID: 9051473630114769805}
   playerMovement: {fileID: 8848315728635164285}
   swap: {fileID: 1785465964697899817}
+  coin: {fileID: 3419045056799867122}
 --- !u!1 &6657140360274106679
 GameObject:
   m_ObjectHideFlags: 0
