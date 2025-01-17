@@ -18,6 +18,7 @@ public class Boss : MonoBehaviour
 
     public bool BossIsAlive = true;
 
+    public Animator anim;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -61,7 +62,10 @@ public class Boss : MonoBehaviour
     public void BossDamage()
     {
         BossLife -= 1;
-    }
+        if (BossLife == 0) {
+            anim.SetBool("Start", true);
+        }
+    } 
 
     public IEnumerator BossDrop() 
     {
