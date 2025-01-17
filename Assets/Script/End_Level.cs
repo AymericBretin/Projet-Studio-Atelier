@@ -27,7 +27,7 @@ public class End_Level : MonoBehaviour
     {
         if (other.gameObject.tag == "Player") {
             saveScript.TotalCoin += coin.nb_coin;
-            playerMovement.canMove = false;g
+            playerMovement.canMove = false;
             Rigidbody2D rb = other.GetComponent<Rigidbody2D>();
             rb.linearVelocity = Vector2.zero;
             anim.SetBool("Victory", true);
