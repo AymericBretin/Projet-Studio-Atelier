@@ -17,6 +17,6 @@ public class MenuJumpButton : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D other)
     {
         if (other.gameObject.tag == "Player")
-            Debug.Log("ici on quitte");
+            Application.Quit();
     }
 }
